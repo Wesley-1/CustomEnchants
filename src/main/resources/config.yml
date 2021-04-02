@@ -1,0 +1,38 @@
+Enchants:
+  coolCommand:
+    region: "zlurp"
+    basePrice: 10
+    priceIncrement: 10
+    baseChance: 100.0
+    chanceIncrement: 0
+    maxLevel: 20
+    type: "COMMAND"
+    lore: "&3▐ &bCoolCommand &f%level%" # Lore added when the enchant is added
+    commands: # the ; is the chance
+      - 'give %player% apple 100;100'
+  coolEffect:
+    region: "zlurp"
+    basePrice: 10
+    priceIncrement: 10
+    baseChance: 100.0
+    chanceIncrement: 0
+    maxLevel: 20
+    type: "EFFECT"
+    effect: "FAST_DIGGING"
+    lore: "&2▐ &aCoolEffect &f%level%" # Lore added when the enchant is added
+  coolRadius:
+    region: "zlurp"
+    basePrice: 10
+    priceIncrement: 10
+    baseChance: 100.0
+    chanceIncrement: 0
+    maxLevel: 20
+    type: "RADIUS"
+    radius:
+      x: 30
+      y: 1
+      z: 1
+    lore: "&2▐ &acoolRadius &f%level%" # Lore added when the enchant is added
+Item:
+  lore:
+    - "&cHenlo"

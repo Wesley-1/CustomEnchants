@@ -1,0 +1,4 @@
+name: ZlurpyEnchants
+version: ${project.version}
+main: zlurpyenchants.zlurpyenchants.ZlurpyEnchants
+api-version: 1.16
